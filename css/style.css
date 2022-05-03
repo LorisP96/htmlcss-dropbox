@@ -118,6 +118,42 @@ h1 {
     font-weight: 900;
 }
 
+/* CARDS */
+.container-cards {
+    width: 75%;
+    margin: 200px auto 0;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.dots {
+    margin-left: 10px;
+    display: inline-block;
+    border: 1px solid black;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.dot-bord {
+    margin-left: 0;
+    border: 5px solid #0061ff;
+    height: 20px;
+    width: 20px;
+}
+
+.col-cards {
+    justify-content: space-between;
+}
+
+.card {
+    margin-top: 20px;
+    width: calc( 100% / 3 - 20px );
+    border: 1px solid grey;
+}
 /* LEGENDA
 
 -GENERAL CLASSES RIGA 13
@@ -125,4 +161,6 @@ h1 {
 -HEADER RIGA 22
 
 -JUMBOTRON RIGA 69
+
+-CARDS RIGA 121
 */
