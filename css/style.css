@@ -3,9 +3,75 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 img {
     width: 100%;
     display: inline-block;
 }
+
+/* GENERAL CLASSES */
+
+.container-flex {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.button-box {
+    background-color: #0061ff;
+    padding: 8px 18px;
+    color: white;
+}
+
+/* HEADER */
+
+.hdr {
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    /* test */
+    background-color: lightblue;
+}
+
+.hdr > div {
+    width: 35%;
+    align-items: center;
+}
+
+.hdr div:last-child {
+    text-align: end;
+}
+
+.hdr img {
+    width: auto;
+    height: 25%;
+}
+
+.hdr ul {
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.hdr img, .button-box {
+    margin: 0 20px;
+}
+
+/* JUMBOTRON */
+/* LEGENDA
+
+-GENERAL CLASSES RIGA 13
+
+-HEADER RIGA 22
+
+-JUMBOTRON RIGA 69
+*/
