@@ -30,6 +30,11 @@ a {
     background-color: #0061ff;
     padding: 8px 18px;
     color: white;
+    width: max-content;
+}
+
+.smalltype {
+    font-size: 13px;
 }
 
 /* HEADER */
@@ -39,8 +44,6 @@ a {
     height: 80px;
     align-items: center;
     justify-content: space-between;
-    /* test */
-    background-color: lightblue;
 }
 
 .hdr > div {
@@ -62,11 +65,59 @@ a {
     justify-content: space-evenly;
 }
 
-.hdr img, .button-box {
+.hdr img {
+    margin: 0 20px;
+}
+
+.hdr .button-box {
     margin: 0 20px;
 }
 
 /* JUMBOTRON */
+.jumbo {
+    background-color: #b4d0e7;
+    width: 100%
+}
+
+.jumbo .container-flex {
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    position: relative;
+    top: 60px;
+    justify-content: space-between;
+}
+
+h1 {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    font-size: 85px;
+}
+
+.jumbo img {
+    width: auto;
+    height: 110%;
+}
+
+.jumbo-desc {
+    width: 500px;
+}
+
+.jumbo-desc p {
+    padding-bottom: 30px;
+}
+
+.jumbo-desc .smalltype {
+    padding: 10px 0;
+}
+
+#arrow {
+    padding-top: 20px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
 /* LEGENDA
 
 -GENERAL CLASSES RIGA 13
