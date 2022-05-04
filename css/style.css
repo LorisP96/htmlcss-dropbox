@@ -313,6 +313,22 @@ h4 {
 
 .rectangle-box {
     width: calc(100% - 100vh);
+    background-color: #f5f5f5;
+    padding: 60px;
+}
+
+.rectangle-box img {
+    width: 25%;
+    padding-bottom: 40px;
+}
+
+.rectangle-box p {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.rectangle-box hr {
+    margin-left: 0;
 }
 
 .square {
@@ -324,6 +340,7 @@ h4 {
 
 .square img {
     width: 60%;
+    -webkit-filter: invert(100%);
 }
 
 .ocean img {
