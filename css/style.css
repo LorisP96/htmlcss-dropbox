@@ -303,23 +303,67 @@ h4 {
     margin-top: 50px;
     justify-content: space-between;
     flex-wrap: nowrap;
-    height: 40vh;
+    height: 50vh;
 }
 
 .square-box {
-    width: 40vh;
-    background-color: #0061ff;
+    width: 50vh;
     flex-wrap: wrap;
 }
 
 .rectangle-box {
-    width: calc(100% - 80vh);
+    width: calc(100% - 100vh);
 }
 
 .square {
-    width: 20vh;
-    height: 20vh;
-    background-color: blue;
+    width: 25vh;
+    height: 25vh;
+    justify-content: center;
+    align-content: center;
+}
+
+.square img {
+    width: 60%;
+}
+
+.ocean img {
+    width: auto;
+    height: 15%;
+    align-self: center;
+}
+
+/* square colors */
+.green {
+    background-color: #a2d39b;
+    border: 10px solid #d0e9cd;
+}
+
+.burgundy {
+    background-color: #61082b;
+}
+
+.ocean {
+    background-color: #0093ce;
+}
+
+.orange {
+    background-color: #ff1c1c;
+}
+
+.red {
+    background-color: #d5001f;
+}
+
+.lightblue {
+    background-color: #b4d0e7;
+}
+
+.blue {
+    background-color: #0d2481;
+}
+
+.yellow {
+    background-color: #ffd830;
 }
 /* LEGENDA
 
