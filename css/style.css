@@ -1,3 +1,24 @@
+/* LEGENDA
+
+-GENERAL CLASSES RIGA 35
+
+-HEADER RIGA 81
+
+-JUMBOTRON RIGA 116
+
+-CARDS RIGA 160
+
+-PARTNER RIGA 289
+
+-FUNCTIONS RIGA 307
+
+-TEAMS RIGA 324
+
+-FAQS RIGA 434
+
+-FOOTER RIGA 460
+*/
+
 /* RESET */
 *{
     padding: 0;
@@ -51,6 +72,10 @@ a {
 
 .smalltype {
     font-size: 13px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
 }
 
 /* HEADER */
@@ -135,7 +160,6 @@ h1 {
 /* CARDS */
 .container-cards {
     margin-top: 200px;
-    margin-bottom: 100px;
 }
 
 h2 {
@@ -264,7 +288,6 @@ h4 {
 
 /* PARTNER */
 .partner-container {
-    margin-bottom: 100px;
     justify-content: center;
 }
 
@@ -287,7 +310,6 @@ h4 {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 50px;
-    margin-bottom: 100px;
 }
 
 .functions {
@@ -299,6 +321,7 @@ h4 {
     text-decoration: underline;
 }
 
+/* TEAMS */
 .teams-col {
     margin-top: 50px;
     justify-content: space-between;
@@ -388,7 +411,6 @@ h4 {
     background-color: #b4d0e7;
     padding-top: 100px;
     padding-bottom: 100px;
-    margin-bottom: 100px;
 }
 
 .cont-banner .cont-small-width {
@@ -465,21 +487,3 @@ footer hr {
     margin: 30px 5px;
 }
 
-/* LEGENDA
-
--GENERAL CLASSES RIGA 14
-
--HEADER RIGA 56
-
--JUMBOTRON RIGA 91
-
--CARDS RIGA 135
-
--PARTNER RIGA 265
-
--FUNCTIONS RIGA 284
-
--FAQS RIGA 412
-
--FOOTER RIGA 438
-*/
