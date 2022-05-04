@@ -382,6 +382,32 @@ h4 {
 .yellow {
     background-color: #ffd830;
 }
+
+/* banner */
+.cont-banner {
+    background-color: #b4d0e7;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.cont-banner .cont-small-width {
+    justify-content: space-between;
+}
+
+.cont-banner h2 {
+    color: #61082b;
+    width: 50%;
+}
+
+.banner-button {
+    width: 30%;
+}
+
+.banner-button > .button-box {
+    border: 0;
+    padding: 10px 60px;
+}
+
 /* LEGENDA
 
 -GENERAL CLASSES RIGA 14
