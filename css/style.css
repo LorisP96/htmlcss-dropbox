@@ -291,9 +291,14 @@ h4 {
 }
 
 .functions {
-    width: calc( 100% / 3 - 10px );
+    width: calc( 100% / 3 - 60px );
     margin-bottom: 50px;
 }
+
+.functions span {
+    text-decoration: underline;
+}
+
 
 
 /* LEGENDA
