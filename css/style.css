@@ -227,7 +227,7 @@ li i {
     padding-top: 3px;
 }
 
-.cut {
+hr {
     height: 1px;
     background-color: #d0d0d3;
     border: 0;
@@ -386,8 +386,9 @@ h4 {
 /* banner */
 .cont-banner {
     background-color: #b4d0e7;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 .cont-banner .cont-small-width {
@@ -408,6 +409,61 @@ h4 {
     padding: 10px 60px;
 }
 
+/* FAQS */
+.faqs {
+    border-top: 1px solid #d0d0d3;
+    height: 50px;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.faqs h4 {
+    width: 90%;
+    margin: 0;
+}
+
+.faqs i {
+    width: 10%;
+    text-align: center;
+}
+
+.cont-faqs:last-child {
+    border-bottom: 1px solid #d0d0d3;
+}
+
+.cont-faqs {
+    margin-bottom: 100px;
+}
+
+/* FOOTER */
+footer {
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+}
+
+.foot-ul-cont {
+    justify-content: space-between;
+}
+
+.foot-ul {
+    width: calc(100% / 5 - 50px);
+    line-height: 35px;
+    margin-bottom: 80px;
+}
+
+footer h3 {
+    font-size: 23px;
+}
+
+footer li {
+    font-size: 15px;
+}
+
+footer hr {
+    margin: 30px 5px;
+}
+
 /* LEGENDA
 
 -GENERAL CLASSES RIGA 14
@@ -421,4 +477,8 @@ h4 {
 -PARTNER RIGA 265
 
 -FUNCTIONS RIGA 284
+
+-FAQS RIGA 412
+
+-FOOTER RIGA 438
 */
