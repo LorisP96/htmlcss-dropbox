@@ -461,6 +461,7 @@ footer li {
 }
 
 footer hr {
+    width: 10%;
     margin: 30px 5px;
 }
 
