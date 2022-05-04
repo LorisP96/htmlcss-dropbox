@@ -227,7 +227,7 @@ li i {
     padding-top: 3px;
 }
 
-.card hr {
+.cut {
     height: 1px;
     background-color: #d0d0d3;
     border: 0;
@@ -299,8 +299,28 @@ h4 {
     text-decoration: underline;
 }
 
+.teams-col {
+    margin-top: 50px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    height: 40vh;
+}
 
+.square-box {
+    width: 40vh;
+    background-color: #0061ff;
+    flex-wrap: wrap;
+}
 
+.rectangle-box {
+    width: calc(100% - 80vh);
+}
+
+.square {
+    width: 20vh;
+    height: 20vh;
+    background-color: blue;
+}
 /* LEGENDA
 
 -GENERAL CLASSES RIGA 14
