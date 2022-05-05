@@ -1,22 +1,22 @@
 /* LEGENDA
 
--GENERAL CLASSES RIGA 35
+-GENERAL CLASSES RIGA 39
 
--HEADER RIGA 81
+-HEADER RIGA 85
 
--JUMBOTRON RIGA 116
+-JUMBOTRON RIGA 125
 
--CARDS RIGA 160
+-CARDS RIGA 169
 
--PARTNER RIGA 289
+-PARTNER RIGA 298
 
--FUNCTIONS RIGA 307
+-FUNCTIONS RIGA 316
 
--TEAMS RIGA 324
+-TEAMS RIGA 333
 
--FAQS RIGA 434
+-FAQS RIGA 443
 
--FOOTER RIGA 460
+-FOOTER RIGA 469
 */
 
 /* RESET */
@@ -30,6 +30,10 @@
 img {
     width: 100%;
     display: inline-block;
+}
+
+body {
+    margin-top: 80px;
 }
 
 /* GENERAL CLASSES */
@@ -84,6 +88,11 @@ a {
     height: 80px;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 1;
 }
 
 .hdr > div {
